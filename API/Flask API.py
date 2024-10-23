@@ -16,7 +16,7 @@ app = Flask(__name__)
 
 
 # Configure the MySQL database URI
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://AdibDzakwanF:Adibdf@AdibDzakwanF.mysql.pythonanywhere-services.com/AdibDzakwanF$klinik'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'Adibdf@Adib.mysql'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
